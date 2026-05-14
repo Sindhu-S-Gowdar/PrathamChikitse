@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pratham-Chikitse</string>
+    <string name="home">Home</string>
+    <string name="hospital_finder">Hospital Finder</string>
+    <string name="home_title">Emergency First Aid Guide</string>
+    <string name="home_subtitle">Pratham-Chikitse (Offline) - No login required</string>
+    <string name="hospital_title">Nearby Hospitals (Static List)</string>
+    <string name="play_audio">Play Audio Instructions</string>
+    <string name="back">Back</string>
+    <string name="dos">Do\'s</string>
+    <string name="donts">Don\'ts</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="steps_progress">Step %1$d of %2$d</string>
+    <string name="dos_donts_page">Do\'s and Don\'ts</string>
+    <string name="enter_app">Enter app</string>
+    <string name="ai_check">AI Check</string>
+    <string name="ai_check_title">AI Symptom Checker</string>
+    <string name="symptoms_hint">Describe your symptoms here...</string>
+    <string name="check">Check</string>
+    <string name="ai_response_hint">AI suggestion will appear here.</string>
+    <string name="please_try_again">Please try again</string>
+</resources>
