@@ -152,33 +152,53 @@ Release APK output path:
 
 ## Screenshots
 
-Screenshots below are included in this repository and show the app running on an emulator.
+Screenshots below show the app running on an Android emulator. High-resolution captures are stored in [`docs/screenshots/`](docs/screenshots/).
 
-### Welcome & home
+### Home (Kannada)
 
-| Welcome screen | Emergency home grid |
-|----------------|---------------------|
+Emergency first-aid grid with offline guides and bottom navigation (Home, Hospital Finder, AI Check). Language toggle switches between English and Kannada.
+
+| Home screen – Kannada |
+|-----------------------|
+| ![Home screen in Kannada](docs/screenshots/home-kannada.png) |
+
+### Emergency guide – Snake bite (Kannada)
+
+Step-by-step snake bite instructions with **Play Audio Instructions** (text-to-speech).
+
+| Snake bite detail – Kannada |
+|-----------------------------|
+| ![Snake bite first aid in Kannada](docs/screenshots/snake-bite-detail-kannada.png) |
+
+### Hospital finder (Kannada)
+
+Static list of nearby Bengaluru hospitals with address and phone numbers for quick reference.
+
+| Hospital finder – Kannada |
+|---------------------------|
+| ![Hospital finder in Kannada](docs/screenshots/hospital-finder-kannada.png) |
+
+### AI symptom checker
+
+Describe symptoms (e.g. chest pain); Gemini suggests the likely emergency, first step, and when to call **108**.
+
+| AI Check – chest pain example |
+|-------------------------------|
+| ![AI symptom checker result](docs/screenshots/ai-check-chest-pain.png) |
+
+### Additional development screenshots
+
+| Welcome and home | Home alternate |
+|------------------|----------------|
 | ![Welcome and home](home-running.png) | ![Home screen alternate](home-running2.png) |
 
-### Emergency detail (Snake bite example)
-
-| Detail – steps | Detail – do's / don'ts |
-|----------------|------------------------|
+| Snake bite detail 1 | Snake bite detail 2 |
+|---------------------|---------------------|
 | ![Snake bite detail 1](detail-tap1.png) | ![Snake bite detail 2](detail-tap2.png) |
 
-| After navigation |
-|------------------|
-| ![After tap flow](aftertap.png) |
-
-### App in use
-
-| Running on emulator | Updated UI |
-|---------------------|------------|
+| App running | App running updated |
+|-------------|---------------------|
 | ![App running](app-running.png) | ![App running updated](app-running-updated.png) |
-
-| Snake bite tile selected |
-|--------------------------|
-| ![Snake bite tap](snake-tap.png) |
 
 ---
 
@@ -220,6 +240,8 @@ PrathamChikitse/
 ├── settings.gradle.kts
 ├── gradle.properties
 ├── local.properties                      # Local SDK path & GEMINI_API_KEY (gitignored)
+├── docs/
+│   └── screenshots/                      # README screenshots (home, hospital, AI, detail)
 ├── gradlew / gradlew.bat
 └── README.md
 ```
